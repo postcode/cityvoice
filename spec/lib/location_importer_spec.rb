@@ -105,5 +105,12 @@ describe LocationImporter do
         end.not_to change(Location, :count)
       end
     end
+
+    context 'with an id header' do
+      it 'should not create a subject' do
+        SubjectImporter.import_file(Rails.root.join('spec/support/fixtures/subject_with_id.csv'))
+        expect { Subject.find('12345') }.not_to raise_error
+      end
+    end
   end
 end
