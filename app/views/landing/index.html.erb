@@ -10,11 +10,15 @@
 
   <%= render layout: 'landing/info_block', locals: {title: 'Listen'} do %>
     <%= @content.listen_text %>
-    <hr>
-    <h6><%= @content.message_from %></h6>
-    <audio controls>
-      <source src="<%= @content.message_url %>" type="audio/mpeg">
-    </audio>
+    <% if @content.message_from.present? %>
+      <hr>
+      <h6><%= @content.message_from %></h6>
+    <% end %>
+    <% if @content.message_url.present? %>
+      <audio controls>
+        <source src="<%= @content.message_url %>" type="audio/mpeg">
+      </audio>
+    <% end %>
   <% end %>
 </div>
 

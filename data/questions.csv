@@ -1,3 +1,16 @@
 Short Name,Feedback Type,Question Text
+<<<<<<< HEAD
 property_outcome,numerical_response,Should this property be removed or repaired? Press 1 to remove or 2 to repair.
 property_comments,voice_file,Please leave some comments about this property. Do not leave self-identifying information.
+=======
+shops_lincoln,numerical_response,Do you shop along Lincoln Way West?
+shops_western,numerical_response,Do you shop along Western Avenue?
+restaurants_lincoln,numerical_response,Do you eat at restaurants along Lincoln Way West?
+restaurants_western,numerical_response,Do you eat at restaurants along Western Avenue?
+recreation_lincoln,numerical_response,Do you do any other leisure or recreational activities along Lincoln Way West?
+recreation_western,numerical_response,Do you do any other leisure or recreational activities along Western Ave?
+visits_locations,voice_file,"What shops, restaurants or other activities do you visit along Lincoln Way West or Western Avenue?"
+wants_locations,voice_file,"What shops, restaurants, or other activities do want to bring to Lincoln Way West or Western Avenue?"
+ideas_corridors,voice_file,"What other ideas do you have to improve Lincoln Way West or Western Avenue?"
+change_or_like,voice_file,"If you do not live on the West Side, what changes would make you want to move there or if you live on the West Side what is your favorite thing about your neighborhood?"
+>>>>>>> Bring in the audio files, questions, and locations for the SB corridors survey.
