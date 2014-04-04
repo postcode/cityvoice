@@ -54,7 +54,7 @@ function drawMap () {
     window.map = L.mapbox.map('map',mapboxMapID).setView([41.6696, -86.246], 16);
   }
   else {
-    window.map = L.mapbox.map('map',mapboxMapID).setView([41.675, -86.262], 15);
+    window.map = L.mapbox.map('map',mapboxMapID).setView([41.68060473460121, -86.2752914428711], 14);
   }
   $.getJSON('/locations.json', placeMarkers);
   $( "#dialog" ).dialog();
@@ -70,4 +70,3 @@ function drawMap () {
     $('.expander').simpleexpand();
     $('.expander').click();
   });
-
