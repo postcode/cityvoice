@@ -5,7 +5,7 @@
   margin-top: rem-calc(40);
 
   .logos {
-    .codeforamerica, .cityvoice, .southbend {
+    .codeforamerica, .cityvoice, .southbend, .postcode {
       @extend .left;
       background-position: left center;
       background-repeat: no-repeat;
@@ -16,7 +16,7 @@
       margin-left: rem-calc(20);
     }
 
-    .codeforamerica, .cityvoice {
+    .codeforamerica, .cityvoice, .postcode {
       overflow: hidden;
       text-indent: 100%;
       white-space: nowrap;
@@ -33,17 +33,24 @@
     .cityvoice {
       background-image: image-url('CityVoice_footer.png');
       height: rem-calc(39);
-      width: rem-calc(142);
+      width: rem-calc(140);
     }
 
     .southbend {
       background-image: image-url('southbendlogo.png');
       height: rem-calc(50);
-      width: rem-calc(200);
+      width: rem-calc(205);
       line-height: rem-calc(50);
       text-indent: rem-calc(65);
       color: black;
       background-position: rem-calc(5) center;
+    }
+    
+    .postcode {
+      background-image: image-url('postcode_logo.png');
+      height: rem-calc(50);
+      width: rem-calc(90);
+      line-height: rem-calc(50);
     }
   }
 }
