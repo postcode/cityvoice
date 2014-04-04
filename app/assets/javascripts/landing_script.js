@@ -34,19 +34,14 @@ function placeMarkers(dataArray) {
       markerFeatureGroup.addLayer(marker);
     }
   }
-  map.fitBounds(markerFeatureGroup.getBounds());
+  // map.fitBounds(markerFeatureGroup.getBounds());
   markerFeatureGroup.addTo(map);
 }
 
 $(document).ready(function() {
   map = L.mapbox.map('map', mapboxMapID);
   $.getJSON('/locations.json', placeMarkers);
-
-  // TODO(cj@postcode.io): Oh dear why do I need a setTimeout here?
-  // Reset the map view after the markers have been loaded in.
-  setTimeout(function () {
-    map.setView([41.68060473460121, -86.2752914428711], 14);
-  }, 100);
+  map.setView([41.68060473460121, -86.2752914428711], 14);
 });
 
 // Expand Section js
