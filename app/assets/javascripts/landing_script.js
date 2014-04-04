@@ -56,7 +56,7 @@ function drawMap () {
     window.map = L.mapbox.map('map',mapboxMapID).setView([41.6696, -86.246], 16);
   }
   else {
-    window.map = L.mapbox.map('map',mapboxMapID).setView([41.665, -86.28], 13);
+    window.map = L.mapbox.map('map',mapboxMapID).setView([41.675, -86.262], 15);
   }
   $.getJSON('/subjects.json', placeMarkers);
   $( "#dialog" ).dialog();
