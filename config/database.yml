@@ -13,10 +13,9 @@
 
 development:
   adapter: postgresql
-  database: cityvoice_production_backup
+  database: cityvoice
   host: localhost
-  username: postgres
-  password: wbcnwbcn
+  username: Andy
   pool: 5
   timeout: 5000
 
