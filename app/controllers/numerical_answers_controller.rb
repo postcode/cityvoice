@@ -17,11 +17,11 @@ class NumericalAnswersController < ApplicationController
   def build_csv
     CSV.generate do |csv|
       csv << [ 'Time',
-         'Location',
-         'Source',
-         'Phone Number',
-         'Question Prompt',
-         'Response'
+               'Location',
+               'Source',
+               'Phone Number',
+               'Question Prompt',
+               'Response'
              ]
       Answer.all.each do |a|
         csv << [ a.created_at,
