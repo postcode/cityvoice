@@ -10,15 +10,17 @@
     <table style="width: 100%">
       <thead>
         <tr>
-          <th width="100">Total Calls</th>
           <th width="150">Address</th>
-          <th width="100">Opinion</th>
+          <th width="200">Question</th>
+          <th width="100">Response</th>
           <th>Votes</th>
         </tr>
       </thead>
       <tbody>
-        <% @sorted_array.each do |location, votes| %>
-          <%= render partial: 'numerical_answers/vote', locals: {location: location, votes: votes}%>
+        <% @locations.each do |location| %>
+          <% Question.numerical.each do |question| %>
+            <%= render partial: 'numerical_answers/vote', locals: {location: location, question: question} %>
+          <% end %>
         <% end %>
       </tbody>
     </table>
