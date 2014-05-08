@@ -42,8 +42,8 @@
    var locationGeoJson = <%= render(partial: 'locations/feature_collection', locals: {locations: Location.all}).html_safe %>;
 
    map = L.map('cityvoice-map', {
-     center: [41.6841303466642, -86.28305912017822],
-     zoom: 14
+     center: [41.66060124302088, -86.26688003540039],
+     zoom: 12
    }); 
    map.attributionControl.addAttribution('<%= Leaflet.attribution.html_safe %>');     
 
