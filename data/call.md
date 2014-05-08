@@ -1,1 +1,1 @@
-Have ideas for how to make Lincoln Way West and Western avenue great? Give the number below a call and share your ideas with the City and your neighbors.
+Have ideas for how to make the City's parks better? Give the number below a call and share your ideas with the Parks Department and your neighbors.

@@ -1,1 +1,3 @@
-The West Side Corridors Master Plan will look at revitalizing Lincolnway West and Western Avenue and serve as a guide to businesses, property owners, residents, developers, the City, and others. Learn more: <ol><li>Attend a Planning Workshop - April 23rd (6pm-8pm)</li><li>Information and updates: <a href='http://www.southbendin.gov/smartstreets'>www.southbendin.gov/smartstreets</a></li></ol>
+The South Bend Parks Master Plan is creating a vision for the next 5 years of South Bend's municipal parks and recreational facilities. To learn more visit:
+
+[http://sbpark.org/MasterPlan](http://sbpark.org/MasterPlan)
