@@ -3,5 +3,5 @@ facility_usage,numerical_response,Do you use this park or facility more than onc
 important_to_you,numerical_response,Is this park important to you?
 community_needs,numerical_response,Does this park meet community needs?
 family_comfort,numerical_response,Do you or your family feel comfortable at this park?
-meaning_explanation,voice_response,How do you currently use this park and what does it mean to you?
-future_ideas,voice_response,Please share ideas to improve the park and envision its future.
+meaning_explanation,voice_file,How do you currently use this park and what does it mean to you?
+future_ideas,voice_file,Please share ideas to improve the park and envision its future.
