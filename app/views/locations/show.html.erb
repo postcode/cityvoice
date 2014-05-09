@@ -28,16 +28,19 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function(){
-    var locationGeoJson = <%= render(partial: 'locations/feature_collection', locals: {locations: [@location]}).html_safe %>;
-    var locations = new Cityvoice.Collections.Locations();
+   var locationGeoJson = <%= render(partial: 'locations/feature_collection', locals: {locations: [@location]}).html_safe %>;
+   var map = L.map('cityvoice-map', {
+     center: [locationGeoJson.features[0].geometry.coordinates[1], locationGeoJson.features[0].geometry.coordinates[0]],
+     zoom: 13
+   }); 
+   map.attributionControl.addAttribution('<%= Leaflet.attribution.html_safe %>');     
 
-    locations.reset(locations.parse(locationGeoJson));
+   L.tileLayer('<%= Leaflet.tile_layer %>').addTo(map);
 
-    new Cityvoice.Views.Map({
-      collection: locations,
-      tileLayerUrl: "<%= Leaflet.tile_layer %>",
-      attributionText: '<%= Leaflet.attribution.html_safe %>',
-      maxZoom: "<%= Leaflet.max_zoom %>"
-    }).render();
+   L.geoJson(locationGeoJson, {
+     onEachFeature: function (feature, layer) {
+       layer.bindPopup(['<a href="', feature.properties.url, '">', feature.properties.name, '</a>'].join(""));
+     }
+   }).addTo(map);
   });
 </script>
