@@ -1,24 +1,1 @@
-ID,Name,Lat,Long
-01,Potawatomi Zoo,41.6686165,-86.2193897
-02,Coveleski Stadium,41.670962,-86.255174
-03,"Martin Luther King, Jr. Recreation Center",41.679397,-86.273466
-04,"Charles Black, Sr. Recreation Center",41.6758215,-86.2953105
-05,Howard Park Recreation Center,41.6745806,-86.2424038
-06,Rum Village Nature Center,41.6467996,-86.2705646
-07,O'Brien Recreation Center,41.6316343,-86.2447591
-08,O'Brien Fitness Center,41.6316343,-86.2447591
-09,Leeper Tennis Center,41.6862607,-86.2531157
-10,Potatwatomi Conservatories,41.666553,-86.216023
-11,Potawatomi Pool,41.667217,-86.217795
-12,Kennedy Water Playground,41.6831384,-86.2888709
-13,Newman Recreation Center,41.666976,-86.23538
-14,Erskine Park Golf Course,41.631638,-86.235937
-15,Ebel Park Golf Course,41.746493,-86.382542
-16,Studebaker Park Golf Course,41.6532605,-86.2390366
-17,Belleville Softball Complex,41.683548,-86.322444
-18,O'Brien Park/Skate Park,41.6311558,-86.2494714
-19,Potawatomi Park,41.667217,-86.217795
-20,Howard Park,41.6745806,-86.2424038
-21,Leeper Park,41.686891,-86.251524
-22,Belleville Park,41.6589975,-86.3158685
-23,Kennedy Park,41.6826936,-86.2880125
+ID,Name,Lat,Long01,Potawatomi Zoo,41.6686165,-86.219389702,Stanley Coveleski Stadium,41.670962,-86.25517403,"Martin Luther King, Jr. Recreation Center",41.679397,-86.27346604,"Charles Black, Sr. Recreation Center",41.6758215,-86.295310505,Howard Park Recreation Center,41.6745806,-86.242403806,Rum Village Nature Center,41.6467996,-86.270564607,O'Brien Recreation Center*,41.6316343,-86.244759108,O'Brien Fitness Center*,41.6316343,-86.244759109,Leeper Tennis Center,41.6862607,-86.253115710,Potawatomi Conservatories,41.6668354,-86.216001311,Potawatomi Pool,41.667217,-86.21779512,Kennedy Water Playground,41.6831384,-86.288870913,Erskine Park Golf Course,41.6317359,-86.236372714,Ebel Park Golf Course,41.746493,-86.38254215,Studebaker Park Golf Course,41.6532605,-86.239036616,Belleville Softball Complex,41.683548,-86.32244417,O'Brien Park/Skate Park,41.6311558,-86.249471418,East Bank Trail*,41.6767993,-86.244998319,Riverside Trail*,41.7022121,-86.262778920,Northside Trail*,41.66138,-86.21039221,Potawatomi Park,41.667217,-86.21779522,Howard Park,41.6745806,-86.242403823,Rum Village Park,41.646536,-86.27298324,Leeper Park,41.686891,-86.25152425,Pinhook Park,41.714002,-86.27310326,Seitz Park/East Race Waterway,41.676013,-86.24528827,Boehm Park,41.697926,-86.20413828,Keller Park,41.698533,-86.264560529,Riverside Park,41.727417,-86.268558930,Belleville Park,41.6589975,-86.315868531,Parkovash Park,41.6907339,-86.255405232,Kennedy Park,41.6826936,-86.288012533,Veteran's Memorial Park,41.660852,-86.22410834,Boland Park,41.7167573,-86.28997135,LaSalle Park,41.6769029,-86.29334436,Coquillard Park,41.685624,-86.23014137,City Cemetary,41.678561,-86.26792638,Kelly Park,41.6877341,-86.239737439,Southeast Neighborhood Park,41.6636044,-86.239116840,Walker Field Park,41.651139,-86.26981941,Brownfield Park,41.69281,-86.26458442,Tarkington Park,41.6989433,-86.1963776
