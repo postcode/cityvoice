@@ -9,7 +9,6 @@
   </div>
 
   <div class="small-12 medium-5  columns">
-
     <% @location.numerical_responses.each do |numerical_response| %>
       <%= render partial: 'numerical_response', locals: {numerical_response: numerical_response} %>
     <% end %>
