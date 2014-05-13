@@ -1,1 +1,1 @@
-Have ideas for how to make Lincoln Way West and Western avenue great? Give the number below a call and share your ideas with the City and your neighbors.
+The CityVoice survey is now closed for comment, but you can still browse the website to hear what others had to say. If you would like further information please call the Department of Community Investment at: 574.235.9371
