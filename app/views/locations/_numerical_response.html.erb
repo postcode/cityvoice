@@ -1,8 +1,8 @@
 <%= render layout: 'landing/info_block', locals: {html_class: 'city-voice-numerical-response'} do %>
   <p><%= numerical_response.question_text %></p>
-  <% numerical_response.response_hash.each do |number, percentage| %>
+  <% numerical_response.response_hash.each do |label, number, percentage| %>
     <div class="city-voice-vote-meter progress">
-      <span class="meter" style="width: <%= percentage -%>%"><%= number %></span>
+      <span class="meter" style="width: <%= number[0] -%>%"><%= label %></span>
     </div>
   <% end %>
 <% end %>
