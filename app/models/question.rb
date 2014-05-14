@@ -22,13 +22,13 @@ class Question < ActiveRecord::Base
     where(feedback_type: 'numerical_response')
   end
 
-  def response_counts
-    answers.group(:numerical_response).count(:numerical_response)
+  def response_counts(location)
+    location.answers.group(:numerical_response).count(:numerical_response)
   end
 
-  def response_percentages
-    total = answers.count * 0.01
-    response_counts.reduce({}) do |memo, (response, count)|
+  def response_percentages(location)
+    total = location.answers.count(:numerical_response) * 0.01
+    response_counts(location).reduce({}) do |memo, (response, count)|
       memo[response] = count / total
       memo
     end

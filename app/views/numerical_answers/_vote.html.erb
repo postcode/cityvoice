@@ -3,12 +3,12 @@
   <td rowspan="2"><%= question.question_text %></td>
   <td>Yes</td>
   <td>
-    <%= render partial: 'numerical_answers/vote_meter', locals: { number: question.response_counts[1], percentage: question.response_percentages[1] } %>
+    <%= render partial: 'numerical_answers/vote_meter', locals: { number: question.response_counts(location)[1], percentage: question.response_percentages(location)[1] } %>
   </td>
 </tr>
 <tr>
   <td>No</td>
   <td>
-    <%= render partial: 'numerical_answers/vote_meter', locals: { number: question.response_counts[2], percentage: question.response_percentages[2] } %>
+    <%= render partial: 'numerical_answers/vote_meter', locals: { number: question.response_counts(location)[2], percentage: question.response_percentages(location)[2] } %>
   </td>
 </tr>
