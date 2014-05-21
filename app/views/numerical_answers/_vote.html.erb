@@ -1,14 +1,12 @@
+<% location.numerical_responses.each do |numerical_response| %>
 <tr>
   <td rowspan="2"><%= link_to(location.name, location) %></td>
-  <td rowspan="2"><%= question.question_text %></td>
-  <td>Yes</td>
-  <td>
-    <%= render partial: 'numerical_answers/vote_meter', locals: { number: question.response_counts[1], percentage: question.response_percentages[1] } %>
-  </td>
+  <td rowspan="2"><%= numerical_response.question.question_text %></td>
+  <% numerical_response.response_hash.each do |label, number, percentage| %>
+  <td><%= label %></td>
+    <td>
+      <%= render partial: 'numerical_answers/vote_meter', locals: {number: number, percentage: percentage} %>
+    </td>
 </tr>
-<tr>
-  <td>No</td>
-  <td>
-    <%= render partial: 'numerical_answers/vote_meter', locals: { number: question.response_counts[2], percentage: question.response_percentages[2] } %>
-  </td>
-</tr>
+  <% end %>
+<% end %>

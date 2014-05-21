@@ -9,16 +9,20 @@ class NumericalResponse < Struct.new(:question, :location)
       if total == 0
         hash[choice] = 0
       else
-        hash[choice] = location.answers
-                               .where(question: question)
-                               .where(numerical_response: (index+1))
-                               .count / total
+        hash[choice] = [location.answers
+                                       .where(question: question)
+                                       .where(numerical_response: (index+1))
+                                       .count / total,
+                                 location.answers
+                                       .where(question: question)
+                                       .where(numerical_response: (index+1))
+                                       .count]
       end
       hash
     end
   end
 
   def has_numeric_response?
-    response_hash.values.any? { |v| v > 0 }
+    response_hash.values.any? { |v| v[0] > 0 }
   end
 end
