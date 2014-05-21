@@ -1,1 +1,1 @@
-Have ideas for how to make the City's parks better? Give the number below a call and share your ideas with the Parks Department and your neighbors.
+Have ideas for how to make the City's parks better? Select a park or facility using the map or search box on this page and then call in using that park or facilities location code. 
