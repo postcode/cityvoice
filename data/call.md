@@ -1,1 +1,1 @@
-The CityVoice survey is now closed for comment, but you can still browse the website to hear what others had to say. If you would like further information please call the Department of Community Investment at: __574.235.937__
+The CityVoice survey is now closed for comment, but you can still browse the website to hear what others had to say. If you would like further information please call the Department of Community Investment at: __574.235.9371__
