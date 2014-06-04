@@ -28,9 +28,9 @@ class NumericalAnswersController < ApplicationController
       headers << questions.map(&:question_text)
       csv << headers.flatten
 
-      Call.order(created_at: :desc).each do |c|
+      Call.where('location_id IS NOT NULL').order(created_at: :desc).each do |c|
         columns = [ c.created_at,
-                    c.location.name,
+                    c.location.try(:name),
                     c.source,
                     c.caller.obscured_phone_number
                   ]
