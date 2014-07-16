@@ -1,1 +1,1 @@
-Have ideas for how to make the City's parks better? Give the number below a call and share your ideas with the Parks Department and your neighbors.
+The CityVoice survey is now closed for comment, but you can still browse the website to hear what others had to say. If you would like further information please call the Parks Department at: 574-299-4765
