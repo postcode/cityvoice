@@ -9,9 +9,9 @@
   </div>
 
   <div class="small-12 medium-5  columns">
-    <%= render layout: 'landing/info_block', locals: {title: 'Call'} do %>
-      <h4><%= @content.app_phone_number %></h4>
-      <h5>Call-in Code: <%= @location.property_code %></h5>
+    <% render layout: 'landing/info_block', locals: {title: 'Call'} do %>
+      <h4><% @content.app_phone_number %></h4>
+      <h5><% @location.property_code %></h5>
     <% end %>
 
     <% @location.numerical_responses.each do |numerical_response| %>
