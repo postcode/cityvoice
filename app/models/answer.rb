@@ -4,13 +4,10 @@
 #
 #  id                 :integer          not null, primary key
 #  question_id        :integer
-#  location_id        :integer
 #  voice_file_url     :string(255)
 #  numerical_response :integer
-#  phone_number       :string(255)
 #  created_at         :datetime
 #  updated_at         :datetime
-#  call_source        :string(255)
 #  call_id            :integer
 #
 

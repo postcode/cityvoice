@@ -18,9 +18,7 @@
       </thead>
       <tbody>
         <% @locations.each do |location| %>
-          <% Question.numerical.each do |question| %>
-            <%= render partial: 'numerical_answers/vote', locals: {location: location, question: question} %>
-          <% end %>
+            <%= render partial: 'numerical_answers/vote', locals: {location: location} %>
         <% end %>
       </tbody>
     </table>

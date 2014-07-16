@@ -17,5 +17,5 @@ class Call < ActiveRecord::Base
 
   has_many :answers
 
-  attr_accessible :caller, :location, :consented_to_callback, :source
+  attr_accessible :caller, :location, :consented_to_callback, :source, :location_id
 end
